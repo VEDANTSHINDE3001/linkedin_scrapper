@@ -36,7 +36,7 @@ def index():
         #session['skills'] =  ['Oracle', 'Unix Shell Scripting', 'Entrepreneurship', 'SQL', 'Red Hat Linux', 'Unix', 'MySQL', 'Shell Scripting', 'Service-now.com', 'XML', 'Eclipse', 'Quality Center', 'Linux', 'Configuration Management', 'ITIL', 'C++', 'Provisioning', 'Software Development', 'PL/SQL', 'C']
         
 
-        browser = webdriver.Chrome(ChromeDriverManager().install())
+        browser = webdriver.Chrome(ChromeDriverManager("96.0.4664.45").install())
 
         chrome_options = Options()
         chrome_options.headless = True
@@ -86,7 +86,7 @@ def search_profile():
         
         
         
-        browser = webdriver.Chrome(ChromeDriverManager().install())
+        browser = webdriver.Chrome(ChromeDriverManager("96.0.4664.45").install())
 
         chrome_options = Options()
         chrome_options.headless = True
